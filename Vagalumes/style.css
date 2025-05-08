@@ -1,0 +1,17 @@
+body{
+    background-color: beige;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+
+.caixinha{
+    background-color: bisque;
+    padding: 20px 30px;
+    border: 2px solid;
+    border-radius: 10px;
+    box-shadow: 0 0 10px color(srgb-linear red green blue)
+    width: 300px
+}
