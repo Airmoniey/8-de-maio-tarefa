@@ -13,4 +13,9 @@ function adicionarTarefa() {
     li.appendChild(botaoRemover);
     document.getElementById('lista-tarefas').appendChild(li);
     input.value = '';
+
+    input.addEventListener('keydown', function(e) {
+    if (e.key === 'Enter') adicionarTarefa();
+});
+
 }
